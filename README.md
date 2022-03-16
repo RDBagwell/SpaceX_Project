@@ -13,3 +13,4 @@
 - I also created a function to make and render all HTML elements
 - Then I added an event listener to listen for an onChange event on the select element.
 - That then triggered the function to render the elements to the screen.
+- Last add CSS to the page.
