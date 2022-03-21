@@ -63,11 +63,13 @@ async function renderPage(index){
     if(imgArray.length == 0){
         const img = document.createElement('img');
         img.src =  'https://via.placeholder.com/300x300?text=No+Image+Available';
+        img.alt = "No Image";
         siteImages.append(img);
     } else {
         imgArray.map(src=>{
             const img = document.createElement('img');
             img.src = src;
+            img.alt = src;
             siteImages.append(img);
         });
     }
